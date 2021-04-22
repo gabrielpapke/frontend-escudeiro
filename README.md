@@ -8,7 +8,7 @@ As repostas das questões sobre Javascript está neste link [aqui](./perguntas/p
 
 ## Prática
 
-Para acessar a página acesse esse link [aqui](./)
+Para acessar a página acesse esse link [aqui](https://gabrielpapke.github.io/frontend-escudeiro/netflix)
 
 Desenvolver uma landing page, baseada na página principal do Youtube Music e Netflix.
 
