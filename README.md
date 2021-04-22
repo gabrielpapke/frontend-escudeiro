@@ -1,4 +1,4 @@
-# frontend-escudeiro
+# Frontend Escudeiro: DB1 Group
 
 Desafio Mestre dos Códigos da DB1 Group para se tornar um Escudeiro em Front-end
 
@@ -21,3 +21,17 @@ A página pode ser do tema que o candidato preferir, devendo apenas seguir e a m
 - Listagem dos itens organizados em Carrossel
 - Footer contendo informações do desenvolvedor
 - Layout responsivo para as resoluções mais utilizadas (Ex: 1366x768, 360x640, 768x1024)
+
+> Será avaliado:
+
+- Boas práticas de organização e estruturação do CSS SEM frameworks
+- Boas práticas de organização, estruturação e semântica do HTML5
+- Boas práticas do uso do Javascript e a manipulação do D.O.M. SEM frameworks
+- Utilização do CSS Grid na estruturação da página
+- Responsividade da página
+- Apenas será avaliado a primeira página da aplicação (home)
+- O intuito desta etapa é tornar o desafiante familiarizado com a base de HTML, CSS e Javascript, criando uma estrutura sólida para os próximos níveis, por este motivo nesta etapa deve-se utilizar essas tecnologias sem abstrações ou ferramentas de terceiros. Sendo assim não será permitido o uso de frameworks, automatizadores ou pré-processadores, como: Vue, Bootstrap, SASS, PUG, Typescript, Webpack, React, JQuery, dentre outros...
+
+- Poderá ser utilizado javascript ES6, já que os navegadores mais utilizados possuem compatibilidade a algum tempo.
+
+- Recursos externos puramente estéticos podem ser utilizados, como imagens(svg, png, gif, etc..), fontes, e ícones(font-awesome, icomoon).
