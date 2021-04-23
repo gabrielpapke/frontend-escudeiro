@@ -9,11 +9,11 @@ window.onscroll = function () {
 
     if(scrollTop > 100) {
         if(!body.classList.contains(scrolledClass)) {
-        return body.classList.add(scrolledClass);
+            return body.classList.add(scrolledClass);
         }
     } else {
         if(body.classList.contains(scrolledClass)) {
-        return body.classList.remove(scrolledClass);
+            return body.classList.remove(scrolledClass);
         }
     }
 } 

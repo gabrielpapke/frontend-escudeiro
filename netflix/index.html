@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="./assets/images/favico.ico">
 
+    <link rel="stylesheet" href="./assets/styles/icofont.min.css">
     <link rel="stylesheet" href="./assets/styles/reset.css">
     <link rel="stylesheet" href="./assets/styles/main.css">
     <link rel="stylesheet" href="./assets/styles/header.css">
@@ -24,8 +25,11 @@
      
                 <ul class="nav-list">
                     <li class="nav-list__item"><a href="#">Início</a></li>
+
                     <li class="nav-list__item"><a href="#">Séries</a></li>
+
                     <li class="nav-list__item"><a href="#">Filmes</a></li>
+
                     <li class="nav-list__item"><a href="#">Top 10</a></li>
                 </ul>
             </nav>
@@ -44,9 +48,13 @@
                         </h2>
     
                         <div class="featured-image__links">
-                            <a href="#" class="btn btn--primary">Assistir</a>
+                            <a href="#" class="btn btn--primary">
+                                <i class="icofont-ui-play"></i> Assistir
+                            </a>
     
-                            <a href="#" class="btn btn--secondary">Mais informações</a>
+                            <a href="#" class="btn btn--secondary">
+                                <i class="icofont-info-circle"></i> Mais informações
+                            </a>
                         </div>
                     </div>
                 </section>
@@ -56,8 +64,43 @@
                 <section class="slider-wrapper">
                     <h2>Séries</h2>
     
-                    <div>
-    
+                    <div class="carousel">
+                        <button class="carousel__prev">
+                            <i class="icofont-arrow-left"></i>
+                        </button>
+                        
+                        <div class="carousel__overflow">
+                            <ul class="carousel__list">
+                                <li class="carousel__item">
+                                    <img src="./assets/images/listas/series/1.jpg" alt="Grey's Anatomy">
+                                </li>
+                                <li class="carousel__item">
+                                    <img src="./assets/images/listas/series/2.jpg" alt="Grey's Anatomy">
+                                </li>
+                                <li class="carousel__item">
+                                    <img src="./assets/images/listas/series/3.jpg" alt="Grey's Anatomy">
+                                </li>
+                                <li class="carousel__item">
+                                    <img src="./assets/images/listas/series/4.jpg" alt="Grey's Anatomy">
+                                </li>
+                                <li class="carousel__item">
+                                    <img src="./assets/images/listas/series/5.jpg" alt="Grey's Anatomy">
+                                </li>
+                                <li class="carousel__item">
+                                    <img src="./assets/images/listas/series/6.jpg" alt="Grey's Anatomy">
+                                </li>
+                                <li class="carousel__item">
+                                    <img src="./assets/images/listas/series/7.jpg" alt="Grey's Anatomy">
+                                </li>
+                                <li class="carousel__item">
+                                    <img src="./assets/images/listas/series/8.jpg" alt="Grey's Anatomy">
+                                </li>
+                            </ul>
+                        </div>
+
+                        <button class="carousel__next">
+                            <i class="icofont-arrow-right"></i>
+                        </button>
                     </div>
                 </section>
             </article>

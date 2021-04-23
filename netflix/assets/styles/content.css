@@ -34,15 +34,66 @@
 }
 
 .slider-wrapper {
+  margin-bottom: 40px;
 }
 
 .slider-wrapper h2 {
   padding: 0 4%;
   font-size: 24px;
   font-weight: 700;
+  margin-bottom: 20px;
 }
 
-footer {
+.carousel {
+  position: relative;
+}
+
+.carousel > button {
+  position: absolute;
+  width: 50px;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  transition: 0.3s background ease;
+  font-size: 32px;
+  border: none;
+  z-index: 2;
+  cursor: pointer;
+  outline: 0;
+}
+
+.carousel > button:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.carousel__prev {
+  left: 0;
+}
+
+.carousel__next {
+  right: 0;
+}
+
+.carousel__overflow {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel__list {
+  width: 2800px;
+  overflow-x: scroll;
+  transition: 0.5s transform ease;
+
+  transform: translate(0, 0);
+}
+
+.carousel__item {
+  display: inline-block;
+}
+
+.footer {
   padding: 20px 20px;
   text-align: center;
 }
