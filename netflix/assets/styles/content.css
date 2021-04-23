@@ -83,7 +83,6 @@
 
 .carousel__list {
   width: 2800px;
-  overflow-x: scroll;
   transition: 0.5s transform ease;
 
   transform: translate(0, 0);
