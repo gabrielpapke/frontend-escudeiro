@@ -1,0 +1,48 @@
+.featured-image {
+  background: url(../images/featured.webp) no-repeat;
+  background-size: cover;
+  height: calc(100vh - 40px);
+  width: 100%;
+  min-height: 600px;
+
+  display: flex;
+  align-items: center;
+}
+
+.featured-image__content {
+  margin-left: 4%;
+}
+
+.featured-image__content h2 img {
+  max-width: 500px;
+}
+
+.featured-image__links {
+  margin-top: 30px;
+}
+
+.featured-image__links a {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.panel {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.slider-wrapper {
+}
+
+.slider-wrapper h2 {
+  padding: 0 4%;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+footer {
+  padding: 20px 20px;
+  text-align: center;
+}
