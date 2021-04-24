@@ -26,8 +26,10 @@ function next(event) {
     const maxTranslate = Math.abs((list.children.length * thumb_width) - window.outerWidth);
 
     if (currentTranslateX === -maxTranslate) return
+
+    const itemsToSlide = Math.floor(window.outerWidth / thumb_width) || 1
     
-    let newTranslateX = currentTranslateX - (thumb_width * 2);
+    let newTranslateX = currentTranslateX - (thumb_width * itemsToSlide);
 
     if (newTranslateX < -maxTranslate) newTranslateX = -maxTranslate;
 
@@ -41,12 +43,22 @@ function prev(event) {
     
     if (currentTranslateX === 0) return
 
-    let newTranslateX = currentTranslateX + (thumb_width * 2);
+    const itemsToSlide = Math.floor(window.outerWidth / thumb_width) || 1
+
+    let newTranslateX = currentTranslateX + (thumb_width * itemsToSlide);
 
     if (newTranslateX > 0) newTranslateX = 0;
 
     list.style.transform = "translateX(" + (newTranslateX) + "px)"
 }
+
+document.querySelector('.header__mobile').addEventListener('click', function (e) {
+    e.stopPropagation();
+    e.preventDefault();
+
+    this.classList.contains('open') ? this.classList.remove('open') : this.classList.add('open')
+
+})
 
 const scrolledClass = 'scrolled';
 window.onscroll = function () {
